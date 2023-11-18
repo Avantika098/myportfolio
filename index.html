@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/cf8e096da9.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <p class="logo">Avantika's Portfolio</p> 
+                <ul>
+                    <li><a href="#header">home</a></li>
+                    <li><a href="#about">about me</a></li>
+                    <li><a href="#project">projects</a></li>
+                    <li><a href="#contact">contact me</a></li>
+                </ul>
+            </nav>
+            <div class="main">
+              <div class="header-text">
+                <h1>Hi,I'm <span>Avantika</span></h1><p><h1>and I'm a<br></h1></p><br>
+                <span id="element"></span>
+             </div>
+             <!-- <div class="intro">
+                <img src="avantika.jpg">
+            </div> -->
+            </div>
+        </div>
+    </div>
+
+            
+<div id="about">
+    <p class="heading">About me</p>
+    <p class="para">
+    Hi,I am a B.tech CSE student,have interest in web development and design.I am a dedicated, enthusiastic,keen learner and posses good communication, creative thinking & problem solving skills.I am a responsible and hard working person. I am a fresher looking for opportunities to learn,enhance my skills and knowledge in web development. 
+    </p>
+    <div class="section">
+        <div class="section1"><p class="skills">Skills</p>
+         <ul>
+            <li><span>web development</span><br>front end developer</li>
+            <li><span>programming languages</span><br>c<br>c++<br></li>
+         </ul>
+        </div>
+        <div class="section2"><p class="education">Education</p>
+         <ul>
+            <li><span>b.tech</span><br>GB pant university of agriculture & technology<br>pantnagar<br>2021-2025<br>computer engineering</li>
+            <li><span>intermidiate</span><br>St.lamart school<br>nagla<br>2021<br>89.2%</li>
+            <li><span>high school</span><br>St.lamart school<br>nagla<br>2019<br>92%</li>
+         </ul>            
+        </div>
+        <!--<div class="section3"><p class="acheivements">Acheivements</p>
+        <ul>
+            <li><span>likh do kuch bhi</span><br>kon dekhra</li>
+            <li><span>bas</span><br>itna hi h</li>
+        </ul>
+        </div>-->
+    </div>
+</div>
+
+
+
+<!--project-->
+<div id="project">
+    <div class="container">
+        <h1 class="sub-titles">My projects</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="tictactoe.PNG">
+                <div class="layer">
+                    <h3>Tic Tae Toe</h3>
+                    <p>It is a fun game for two persons,we have to match three consecutive columns or rows or diagonals with same symbol(0,X).the symbol with a match will we the winner</p>
+                    <a href="https://avantika098.github.io/tictactoe/">Tic tae toe</a> 
+                </div>
+            </div>
+            <div class="work">
+                <img src="BUBBLEGAME.PNG">
+                <div class="layer">
+                    <h3>Bubble game</h3>
+                    <p>it is a fun game,we have to shoot bubbles of given number in given time</p>
+                    <a href="https://avantika098.github.io/bubbleGame/">Bubble game</a> 
+                </div>
+            </div>    
+            <div class="work">
+                <img src="clock.PNG">
+                <div class="layer">
+                    <h3>clock</h3>
+                    <p>It was a fun experience to design this project .it shows the real time of our current time zone</p>
+                    <a href="https://avantika098.github.io/clock/">clock</a> 
+                </div>
+            </div>
+            <div class="work">
+                <img src="color.PNG">
+                <div class="layer">
+                    <h3>Color generator</h3>
+                    <p>It is a simple website that generates the random colors upon touching the button interface.</p>
+                    <a href="https://avantika098.github.io/color-generator/">color generator</a> 
+                </div>
+            </div>
+        </div>
+        <!--<a href="#" class="btn">see more</a>-->
+    </div>
+</div>
+
+<!-------------------------------------contact----------------------------------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">contact me</h1>
+                <p class="email"><i class="fa-regular fa-paper-plane"></i>avantikadevrari@gmail.com</p>
+                <!--<p class="phno">903949837</p>-->
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/09_avantika/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/avantika-devrari-283220280"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </div>
+           
+            <div>
+                <a href="Avantika CV.pdf" class="btn btn2">Download cv</a>
+            </div>
+
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="message" rows="6" placeholder="your message"></textarea>
+                    <button type="submit" class="btn btn2">submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="copyright">
+        <p>copyright <i class="fa-regular fa-copyright"></i> Made by Avantika</p>
+    </div>
+</div>
+
+<!--
+    <script>
+       var tablinks=document.getElementsByClassName("tab-links"); 
+       var tabcontents=document.getElementsByClassName("tab-contents");
+       
+       function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classlist.remove("active-link");
+        }
+        for(tablink of tabcontents){
+            tablink.classlist.remove("active-tab");
+        }
+    }
+    </script>-->
+
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwszSorlkPEjg41tHVyGPpokXRGtvxaIHk24ESo2WMBMs1G5VDeuER-pN_KQTxXIwIJDQ/exec'
+        const form = document.forms['submit-to-google-sheet']
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+         .then(response =>{
+              msg.innerHTML="message sent successfully"
+              setTimeout(function(){
+              msg.innerHTML=""
+              },5000)
+    form.reset()
+})
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+
+
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+<script>
+     var typed = new Typed('#element', {
+      strings: ['WEB DEVELOPER','UI DESIGNER','LEARNER'],
+      typeSpeed: 100,
+      backSpeed:100,
+      loop:true
+    });
+</script>
+</body>
+</html>
